@@ -1,0 +1,16 @@
+mysql> CREATE DATABASE example;
+Query OK, 1 row affected (0.30 sec)
+
+mysql> USE example;
+Database changed
+mysql> CREATE TABLE users (id SERIAL, name VARCHAR (100) NOT NULL UNIQUE);
+Query OK, 0 rows affected (2.71 sec)
+
+mysql> SHOW TABLES
+    -> ;
++-------------------+
+| Tables_in_example |
++-------------------+
+| users             |
++-------------------+
+1 row in set (0.00 sec)
