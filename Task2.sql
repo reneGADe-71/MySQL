@@ -1,0 +1,3 @@
+ CREATE DATABASE example;
+ USE example;
+ CREATE TABLE users (id SERIAL, name VARCHAR (100) NOT NULL UNIQUE);
